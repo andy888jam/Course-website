@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.ck-editor__editable[role='textbox'] {
+  /* editing area */
+  min-height: 200px;
+}
+
+.list-group {
+  min-width: 320px;
+}
+
+.card {
+  min-width: 584px;
+}
+
+.avatar-img {
+  object-fit: cover;
+}
+
+.functionalIcon {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
