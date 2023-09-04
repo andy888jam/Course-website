@@ -1,4 +1,4 @@
-@charset "UTF-8";@import"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap";.ck-editor__editable[role=textbox]{min-height:200px}.wrapper{max-width:920px;margin:0 auto}.list-group{min-width:320px}.card{min-width:584px}.avatar-img{object-fit:cover}.functionalIcon{cursor:pointer}.functionalIcon:hover{opacity:.6}.card-font{font-size:14px;line-height:21px}.text-Bold{font-weight:700}ul{list-style:none}/*!
+@charset "UTF-8";@import"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap";ul{list-style:none}body{font-family:Noto Sans TC,sans-serif;font-family:Roboto,sans-serif}a{color:#000;text-decoration:none;display:inline-block}.wrapper{max-width:920px;margin:0 auto}.text-Bold{font-weight:700}.ck-editor__editable[role=textbox]{min-height:200px}.list-group{min-width:320px}.card{min-width:584px}.avatar-img{object-fit:cover}.functionalIcon{cursor:pointer}.functionalIcon:hover{opacity:.6}.card-font{font-size:14px;line-height:21px}/*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
