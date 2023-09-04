@@ -23,9 +23,9 @@
     <div class="d-flex">
       <%- include('./layout/header'); -%>
 
-      <main class="p-8">
-        <div class="d-flex align-items-center py-8">
-          <h4 class="m-0 me-12">Assignment</h4>
+      <main class="py-8 wrapper">
+        <div class="d-flex align-items-center pb-8">
+          <h4 class="m-0 me-12 text-Bold">Assignment</h4>
           <div class="dropdown">
             <button
               class="btn btn-white dropdown-toggle border-0 p-0"
@@ -34,7 +34,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              All Courses
+              <span class="text-Bold functionalIcon">All Courses</span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
               <li>
@@ -68,7 +68,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              All(4)
+              <span class="text-Bold">All(4)</span>
             </button>
           </div>
           <small class="text-muted">2 comments</small>
@@ -80,42 +80,58 @@
               class="list-group-item list-group-item-action"
               aria-current="true"
             >
-              <div class="d-flex w-100 justify-content-between align-items-center">
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
                 <h6 class="mb-1">Chapter Assignment 2</h6>
                 <small>4 hrs ago</small>
               </div>
-              <div class="d-flex w-100 justify-content-between align-items-center">
-                <p class="mb-1">Please check this file…</p>
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
+                <p class="mb-1 text-Bold">Please check this file…</p>
                 <small class="text-muted">Emily Wang</small>
               </div>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between align-items-center">
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
                 <h6 class="mb-1">Chapter Assignment 1</h6>
                 <small>12 hrs ago</small>
               </div>
-              <div class="d-flex w-100 justify-content-between align-items-center">
-                <p class="mb-1">My Homework</p>
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
+                <p class="mb-1 text-Bold">My Homework</p>
                 <small class="text-muted">David Xu</small>
               </div>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between align-items-center">
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
                 <h6 class="mb-1">Final Assignment</h6>
                 <small>18 hrs ago</small>
               </div>
-              <div class="d-flex w-100 justify-content-between align-items-center">
-                <p class="mb-1">Have a problem with this…</p>
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
+                <p class="mb-1 text-Bold">Have a problem with this…</p>
                 <small class="text-muted">Tony Wei</small>
               </div>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between align-items-center">
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
                 <h6 class="mb-1">Final Assignment</h6>
                 <small>19 hrs ago</small>
               </div>
-              <div class="d-flex w-100 justify-content-between align-items-center">
-                <p class="mb-1">Did I do it right?</p>
+              <div
+                class="d-flex w-100 justify-content-between align-items-center"
+              >
+                <p class="mb-1 text-Bold">Did I do it right?</p>
                 <small class="text-muted">Christina Lin</small>
               </div>
             </a>
@@ -126,7 +142,7 @@
             >
               <div>
                 <p class="mb-0 fs-6">Chapter Assignment 2 / HTML&CSS</p>
-                <h4 class="mb-0 fs-5">
+                <h4 class="mb-0 fs-5 text-Bold">
                   Please check this file for me, thanks!
                 </h4>
               </div>
@@ -144,15 +160,15 @@
                   />
                 </div>
                 <div class="flex-grow-1">
-                  <h5 class="card-title mb-0 lh-1">Emily Wang</h5>
+                  <h5 class="card-title mb-0 lh-1 text-Bold">Emily Wang</h5>
                   <small class="text-muted">10:38 AM (4 hours ago)</small>
                 </div>
               </div>
-              <p class="card-text ms-12 me-4">
+              <p class="card-text ms-12 me-4 mt-4 card-font">
                 Hi Teacher, the attached file is my homework of chapter 2. And
                 here comes a question: Why in the following code the height of
                 the div is bigger than the height of the img ? There is a gap
-                below the image, but it doesn’t seems to be a padding/margin.
+                below the image, but it doesn’t seems to be a padding/margin.<br />
                 What is the gap or extra space below image?
               </p>
               <a
@@ -178,18 +194,24 @@
                     />
                   </div>
                   <div class="flex-grow-1">
-                    <h5 class="card-title mb-0 lh-1">Andy Chen (You)</h5>
+                    <h5 class="card-title mb-0 lh-1 text-Bold">
+                      Andy Chen (You)
+                    </h5>
                     <small class="text-muted">13:24 AM (1 hours ago)</small>
                   </div>
                 </div>
+                <div>
+                  <span class="material-symbols-outlined functionalIcon"> grade </span>
+                  <span class="material-icons ms-6 functionalIcon"> edit </span>
+                </div>
               </div>
-              <p class="card-text ms-12 me-4">
+              <p class="card-text ms-12 me-4 mt-4 card-font">
                 Hi David, by default, an image is rendered inline, like a letter
                 so it sits on the same line that a, b, c and d sit on. There is
                 space below that line for the descenders you find on letters
-                like g, j, p and q. You can: 　• adjust the vertical-align of
-                the image to position it elsewhere (e.g. the middle ) or 　•
-                change the display so it isn’t inline.
+                like g, j, p and q. <br /><br />You can: 　<br /><br />• adjust
+                the vertical-align of the image to position it elsewhere (e.g.
+                the middle ) or 　<br />• change the display so it isn’t inline.
               </p>
             </div>
 
