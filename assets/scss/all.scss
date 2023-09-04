@@ -1,10 +1,7 @@
-@import "../../node_modules/bootstrap/scss/functions";
+@import './base/rebase';
+@import '../../node_modules/bootstrap/scss/functions';
 @import './utils/variables';
-
-
-@import './layout/header.scss';
-
-
+@import './utils/utilities';
 @import './pages/index.scss';
 
-@import "../../node_modules/bootstrap";
+@import '../../node_modules/bootstrap';
